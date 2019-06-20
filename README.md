@@ -18,7 +18,9 @@ Step 2. Add the dependency
 	}
   
 Step3.activity调用
-ChooseCityUtil util = new ChooseCityUtil();
+
+
+	ChooseCityUtil util = new ChooseCityUtil();
         util.createDialog(this, new ChooseCityInterface() {
             @Override
             public void sure(String[] newCityArray) {
